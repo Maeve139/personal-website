@@ -1,0 +1,200 @@
+header {
+	background-color: #3D7DD1;
+	width: 100%;
+	margin: none;
+	display: block;
+	padding: 0px;
+	font-weight: normal;
+}
+
+img{
+	display: inline-block;
+}
+
+.logo{
+	height: 100px;
+	padding:10px;
+}
+
+body{
+	margin: 0px;
+	font-family: Consolas, "Droid Sans Mono", "Everson Mono";
+}
+
+h1{
+	color: #FFFFFF;
+	font-size: 36px;
+	text-align: center;
+	padding-right: auto;
+	padding-left: auto;
+	padding-top: 50px;
+	vertical-align: top;
+	display: inline-block;
+	margin: 0px;
+}
+
+h1.smallhead{
+	margin-bottom: 0px;
+}
+
+.mainnav{
+	display: block;
+	vertical-align: top;
+	margin-top: 30px;
+	height: 300px;
+}
+
+nav a{
+	font-family: Consolas, "Droid Sans Mono", "Everson Mono";
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav a:hover{
+	background-color: #FFFFFF;
+	color: #3D7DD1;
+}
+
+.subnav{
+	display: none;
+	background-color: #FFFFFF;
+	color: #3D7DD1;
+	width: 100%
+	z-index: 1;
+	padding-left: auto;
+	border-collapse: collapse;
+}
+
+.subnav a{
+	color: #3D7DD1;
+}
+
+.hasSub:hover .subnav{
+	display: block;
+}
+
+.subnav a:hover {
+	background-color: #87A4E5;
+	color: #FFFFFF;
+}
+
+h2{
+	padding: 20px;
+	font-size: 36px;
+	text-align: center;
+}
+
+p{
+	margin: 20px;
+	font-size: 16px;
+}
+
+section{
+	margin:20px;
+}
+
+.highlight{
+	background-color: #87A4E5;
+	padding: 10px;
+	font-weight: 550;
+	text-align: center;
+}
+
+h3{
+	font-size: 18px;
+	font-weight: normal;
+}
+
+footer{
+	text-align: center;
+	font-family: Consolas, "Droid Sans Mono", "Everson Mono";
+	background-color: #3D7DD1;
+	width: 100%;
+	height: 75px;
+	color: #FFFFFF;
+	position: fixed;
+	bottom: 0;
+	line-height: 75px;
+	margin-top: 50px;
+}
+
+#container:after{
+	content: "";
+	display: block;
+	height: 75px;
+}
+
+@media screen and (min-width: 900px){
+	h1{
+		padding: 40px;
+		display: inline-block;
+		margin-bottom: 30px;
+	}
+
+	.mainnav{
+		display: inline-block;
+		height: 100px;
+	}
+
+	nav a{
+		display: inline-block;
+		padding: 20px;
+	}
+
+	.mainnav a{
+		height: 60px;
+		padding-bottom: 45px;
+	}
+
+	.subnav a{
+		padding: 10px;
+		height:auto;
+		margin-top: 0px;
+		width:auto;
+		float:right;
+	}
+
+	.subnav{
+		position: absolute;
+		left: 0;
+	}
+
+	.hasSub:hover .subnav{
+		display: table;
+	}
+
+	nav.subnav {
+		width: 100%;
+		border-collapse: collapse;
+		border: none;
+	}
+	
+	.hasSub:hover .subnav {
+		display: table-row;
+	}
+
+	.hasSub:hover nav.subnav a{
+		display: table-cell;
+		margin: 0;
+	}
+
+	h2{
+		margin: 50px;
+		text-align: left;
+	}
+
+	.highlight{
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+	h1.smallhead{
+		padding-top: 60px;
+		font-size: 26px;
+		margin-bottom: 40px;
+	}
+}
+
