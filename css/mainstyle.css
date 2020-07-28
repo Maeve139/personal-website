@@ -99,7 +99,7 @@ section{
 .highlight{
 	background-color: #6479AA;
 	padding: 10px;
-	font-weight: 550;
+	font-weight: 400;
 	text-align: center;
 	color:#FFFFFF;
 }
@@ -109,7 +109,7 @@ section{
 }
 
 .highlight p{
-	font-size: 16pt;
+	font-size: 18pt;
 }
 
 h3{
