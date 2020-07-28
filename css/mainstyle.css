@@ -101,7 +101,10 @@ section{
 	padding: 10px;
 	font-weight: 550;
 	text-align: center;
-	color: #FFFFFF;
+}
+
+.highlight h2, h3, p{
+	
 }
 
 h3{
