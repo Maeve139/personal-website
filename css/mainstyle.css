@@ -104,6 +104,14 @@ section{
 	color:#FFFFFF;
 }
 
+.highlight h3{
+	font-size: 18px;
+}
+
+.highlight p{
+	font-size: 14px;
+}
+
 h3{
 	font-size: 18px;
 	font-weight: normal;
